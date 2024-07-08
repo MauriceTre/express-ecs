@@ -1,6 +1,6 @@
 name: example-workflow
 
-on: workflow_dispatch
+on: develob
 
 jobs:
   copy: # kopiert den Repository Inhalt auf den Runner
