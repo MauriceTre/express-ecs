@@ -1,6 +1,6 @@
 name: example-workflow
 
-on: develop
+on: ubuntu-latest
 
 jobs:
   copy: # kopiert den Repository Inhalt auf den Runner
