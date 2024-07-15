@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-      - name: Configure AWS Credentials 2
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: eu-central-1
@@ -75,3 +75,7 @@ jobs:
         run: npm install
       - name: Run Lint
         run: npm run lint
+
+      - name: Run Prettier Check
+        run: npm run prettier -- --check
+
