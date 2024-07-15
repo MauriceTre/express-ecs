@@ -8,7 +8,8 @@
     "dev": "node index.js",
     "lint": "eslint .",
     "test": "jest",
-    "prettier": "prettier"
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "author": "maurice",
   "license": "ISC",
